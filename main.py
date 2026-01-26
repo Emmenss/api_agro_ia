@@ -18,7 +18,7 @@ app.add_middleware(
 )
 
 # Charger le modèle
-MODEL_PATH = os.getenv("MODEL_PATH", "agro_ia.joblib")
+MODEL_PATH = os.getenv("MODEL_PATH", "crop_recommendation_model.joblib")
 model = joblib.load(MODEL_PATH)
 
 # Modèle de données
